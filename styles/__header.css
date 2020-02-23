@@ -1,0 +1,55 @@
+/* YOUTUBE HEADER STYLES. */
+
+.ytb-header {
+  height: 45px;
+  box-shadow: var(--ytb-gray-shadow);
+  grid-template-columns: 1fr 4fr 1.5fr;
+  border-bottom: 3px solid var(--ytb-gray-light);
+}
+
+/* LOGO */
+.ytb-header__logo {
+  background: url("../assets/youtube-one.gif");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* INPUT */
+.ytb-header__input {
+  position: relative;
+  border-left: 1px solid var(--ytb-gray-light);
+  border-right: 1px solid var(--ytb-gray-light);
+}
+
+.ytb-header__input > input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 15px;
+  padding-left: 45px;
+  color: var(--ytb-gray-light);
+}
+
+.ytb-header-input__search-icon {
+  top: 8px;
+  width: 30px;
+  left: 15px;
+  position: absolute;
+}
+
+/* HEADER ICONS */
+.ytb-header__icons {
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.ytb-header__icons-profile-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.ytb-header__icons-upload-btn {
+  color: var(--ytb-white);
+  background: var(--ytb-red);
+}

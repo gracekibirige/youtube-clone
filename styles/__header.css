@@ -2,9 +2,7 @@
 
 .ytb-header {
   height: 45px;
-  box-shadow: var(--ytb-gray-shadow);
   grid-template-columns: 1fr 4fr 1.5fr;
-  border-bottom: 3px solid var(--ytb-gray-light);
 }
 
 /* LOGO */

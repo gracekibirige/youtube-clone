@@ -1,0 +1,17 @@
+.ytb-navigation-container {
+  height: 90px;
+  /* border-bottom: 3px solid var(--ytb-gray-light);
+  box-shadow: var(--ytb-gray-shadow);*/
+}
+
+.ytb-navigation {
+  justify-content: space-between;
+  width: var(--ytb-screen-width);
+  font-size: large;
+  color: var(--ytb-gray-dark);
+  list-style: none;
+}
+
+.ytb-navigation li:nth-child(1) {
+  color: var(--ytb-red);
+}

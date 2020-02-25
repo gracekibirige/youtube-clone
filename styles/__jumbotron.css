@@ -1,0 +1,54 @@
+.jumbotron-container {
+  background: url("../assets/mtn.jpg");
+  background-position: center;
+  height: 350px;
+  padding: 50px;
+  color: var(--ytb-white);
+  opa
+}
+
+.jumbotron-header {
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.jumbotron-headline {
+  line-height: 1.5;
+  padding-bottom: 20px;
+  font-weight: 300;
+  width: 800px;
+}
+
+.jumbotron-profile-pic > img {
+  width: 45px;
+  height: 35px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.jumbotron-profile-pic > p {
+  align-self: center;
+}
+
+.jumbotron-profile-pic {
+  margin-bottom: 20px;
+}
+
+.jumbotron-follow-btn {
+  width: 100px;
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  border-radius: 2px;
+  color: var(--ytb-white);
+  background: var(--ytb-red);
+  transition: ease-in-out 0.2s;
+}
+
+.jumbotron-follow-btn:hover {
+ 
+  color: var(--ytb-red);
+  background: none;
+  border: 2px solid var(--ytb-red);
+  transform: scale(1.2);
+}

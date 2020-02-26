@@ -4,7 +4,12 @@
   height: 350px;
   padding: 50px;
   color: var(--ytb-white);
-  opa
+  display: flex;
+  justify-content: center;
+}
+
+.jumbotron-subcontainer {
+  width: var(--ytb-screen-width);
 }
 
 .jumbotron-header {
@@ -46,7 +51,6 @@
 }
 
 .jumbotron-follow-btn:hover {
- 
   color: var(--ytb-red);
   background: none;
   border: 2px solid var(--ytb-red);

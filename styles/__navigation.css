@@ -10,8 +10,14 @@
   font-size: large;
   color: var(--ytb-gray-dark);
   list-style: none;
+  transition: ease-in-out;
 }
 
 .ytb-navigation li:nth-child(1) {
   color: var(--ytb-red);
+}
+
+.ytb-navigation li:hover {
+  color: var(--ytb-red);
+  cursor: pointer;
 }
